@@ -21,4 +21,4 @@ for p in range (p0,p0+700):
   t.ack = rt.seq + 1
   t.flags = "A"
   sbss = '\x00\x01\xff\xff'
-  sent(i/t/sbss)
+  send(i/t/sbss)
